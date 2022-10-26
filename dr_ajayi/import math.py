@@ -27,26 +27,36 @@ whpr = wc / hc #waist hip ratio
 
 whtr = wc / h #waist height ratio
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# class FORMULA ():
-#     def BRI():
-#         print("BRI")
+class FORMULA ():
+    def bri():
+        """body roundness index"""
         
-#     def cl():
-#         print("CL")
+        print("BRI")
         
+    def cl():
+        """conicity index"""
+        print("CL")
+    
+    def absi():
+        """A body shape index"""
+        print("CL")
+    
+    def bai():
+        """body adipocity index"""
+        print("CL")
+    
+    def avi():
+        """abdominal volume index"""
+        print("CL")
+    
+    def bsi():
+        """for adolescents adjusted body shape index"""
+        print("CL")
+    
+    def whpr():
+        """waist hip ratio"""
+        print("CL")
+    
+    def whtr():
+        """waist height ratio"""
+        print("CL")
