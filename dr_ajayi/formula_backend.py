@@ -84,14 +84,71 @@ class formula():
     
     def avi():
         """abdominal volume index"""
+        s = float(input("waist: "))
+        l = float(input("hip: "))
+        q = "string"
+        
+        if type(s) == type(l) == type(1.0):
+            a_vi = ( 2* (s**2) + 0.7 * (s - l)**2 ) / 1000
+            print(a_vi)
+        
+        elif type(s) == type(q) or type(l) == type(q):
+            print("Value must not be string")
+            
+        else :
+            ('invalid input')
+
     
     def bsi():
         """for adolescents adjusted body shape index"""
+        wc = float(input("Waist circumfrence: "))
+        h = float(input("Height: "))
+        bmi = float(input("Body mass index: "))
+        q = "string"
+        
+        if type(wc) == type(h) == type(bmi) == type(1.0):
+            b_si = wc / bmi**0.45 * h**0.55
+            print(b_si)
+        
+        elif type(wc) == type(q) or type(h) == type(q):
+            print("Value must not be string")
+            
+        else :
+            ('invalid input')
+
     
     def whpr():
         """waist hip ratio"""
+        hc = float(input("Hip circumfrence: "))
+        wc = float(input("Waist circumfrence: "))
+        q = "string"
+        
+        if type(wc) == type(hc) == type(1.0):
+            w_hpr = wc / hc
+            print(w_hpr)
+        
+        elif type(hc) == type(q) or type(wc) == type(q):
+            print("Value must not be string")
+            
+        else :
+            ('invalid input')
+
     
     def whtr():
         """waist height ratio"""
+        wc = float(input("Waist circumfrence: "))
+        h = float(input("Height: "))
+        q = "string"
+        
+        if type(wc) == type(h) == type(1.0):
+            w_htr = wc / h
+            print(w_htr)
+        
+        elif type(wc) == type(q) or type(h) == type(q):
+            print("Value must not be string")
+            
+        else :
+            ('invalid input')
+
 
 formula.bri()
