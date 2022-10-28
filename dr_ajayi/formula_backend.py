@@ -149,6 +149,3 @@ class formula():
             
         else :
             ('invalid input')
-
-
-formula.bri()
